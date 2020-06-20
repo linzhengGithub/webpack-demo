@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "rm -rf dist && webpack"
+    "build": "rm -rf dist && webpack --config webpack.config.prod.js"
   },
   "devDependencies": {
     "css-loader": "^3.6.0",
